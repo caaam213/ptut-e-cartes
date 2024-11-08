@@ -1,0 +1,19 @@
+.petit 
+{
+    font-size: 0.75em;
+    color : green;
+    margin-top: 0.7em;
+}
+
+
+.blocProduit {
+    background-color: white;
+    border-radius: 15px !important;
+    box-shadow: gray 10px 10px 30px -6px;
+}
+
+
+.test{
+    background-color: red;
+    border-radius: 10px !important;
+}

@@ -1,0 +1,43 @@
+body {
+    margin : 0;
+    padding : 0;
+    height : 120vh;
+
+}
+
+body h2{
+    font-size: 16px;;
+}
+
+/* Header */
+ header h1{
+     font-size: 30px;
+ }
+
+ /* Section modification du plat */
+
+ #modif-plat input{
+     font-size: 12px;
+ }
+
+ .bordure{
+     font-size: 13px;
+     width: 160px;
+ }
+
+
+ .fasMinus{
+     color:#BB0B0B;
+ }
+
+ .ajout{
+    font-size: 10px;
+ }
+
+ .form-check{
+     font-size: 10px;
+ }
+
+ #type_plat_produit{
+     font-size: 12px;
+ }

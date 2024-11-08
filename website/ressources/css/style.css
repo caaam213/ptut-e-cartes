@@ -1,0 +1,116 @@
+
+/* -------- Caractèristiques des boutons classiques : boutons principaux -------- */
+.classicButton {
+    color: #25b03a !important;
+    font-size: 1.2em !important;
+    background-color: white;
+    box-shadow: gray 10px 10px 30px -6px;
+    border-radius: 10px !important;
+    font-weight: 450 !important;
+    transition-duration: 350ms;
+}
+.classicButton:hover {
+    background-color: #25b03a;
+    box-shadow: gray 5px 5px 20px -6px;
+    color: white !important;
+}
+
+/* ------ Caractèristiques des boutons classiques ROUGE : boutons principaux ROUGE
+    Un bouton de ce type doit ausis être de type classicBouton pour hériter des autres caractéristiques -------- */
+.deleteButton {
+    background-color: white;
+    color: red !important;
+}
+.deleteButton:hover {
+    background-color: red;
+    color: white !important;
+}
+
+/* ------ Caractèristiques des boutons classiques BLEU : boutons principaux BLEU
+    Un bouton de ce type doit ausis être de type classicBouton pour hériter des autres caractéristiques -------- */
+.blueButton {
+    background-color: white;
+    color: #0747A6 !important;
+}
+.blueButton:hover {
+    background-color: #0747A6;
+    color: white !important;
+}
+
+/* -------- Caractèristiques des boutons sur un produit : boutons s econdaire -------- */
+.produitButton {
+    color: white !important;
+    background-color: #25b03a !important;
+    border-radius: 5px !important;
+    border: 2px #25b03a solid !important;
+    padding: 3px 35px 3px 35px !important;
+}
+.produitButton:hover {
+    background-color: white !important;
+    color: #25b03a !important;
+}
+
+/* ------- Même chose mais en ROUGE ------- */
+.produitDeleteButton {
+    background-color: red !important;
+    border: 2px red solid !important;
+    
+    color: white !important;
+}
+.produitDeleteButton:hover {
+    background-color: white !important;
+    color: red !important;
+}
+
+ /*------------- Bloc d'un produit ---------------*/
+.blocProduit {
+    background-color: white;
+    border-radius: 10px !important;
+    box-shadow: gray 10px 10px 30px -6px;
+}
+
+.blocErreur{
+    background-color: red;
+    border-radius: 10px !important;
+}
+
+.titreBlocProduit {
+    font-size: 1.3em;
+    font-weight: 450 !important;
+    color: #25b03a !important;
+}
+
+/* -------- Bloc bouton de l'acceuil gestion du restaurant -------- */
+
+.blocBouton {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: gray 5px 5px 20px -6px;
+    transition-duration: 350ms;
+}
+.blocBouton:hover {
+    box-shadow: gray 0px 0px 15px -6px;
+}
+a {
+    text-decoration: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

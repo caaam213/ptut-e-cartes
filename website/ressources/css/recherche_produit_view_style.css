@@ -1,0 +1,55 @@
+
+
+#prix_border
+{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#liste_ingredient
+{
+    font-size: 10px;
+    color: darkgreen;
+}
+
+#ingredientnvoulu_text
+{
+    font-size:13px;
+}
+
+
+#bordure
+{
+    border-right: 2px;
+}
+
+.bouton_modale
+{
+    color:green;
+}
+
+::-webkit-input-placeholder { text-align:center; }
+::-moz-placeholder { text-align:center; } /* firefox 19+ */
+:-ms-input-placeholder { text-align:center; } /* ie */
+input:-moz-placeholder { text-align:center; }
+
+.titre
+{
+    font-weight:600;
+}
+
+.bou
+{
+    border-radius:20px;
+}
+
+#ingredient-btn
+{
+    color: black;
+}
+
+#recherche-titre
+{
+    font-weight:600;
+    font-size: 55px;
+}

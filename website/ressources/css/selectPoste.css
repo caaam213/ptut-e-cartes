@@ -1,0 +1,14 @@
+.blocBouton {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: gray 5px 5px 20px -6px;
+    transition-duration: 350ms;
+}
+.blocBouton:hover {
+    box-shadow: gray 0px 0px 15px -6px;
+}
+
+a {
+    text-decoration: none !important;
+}

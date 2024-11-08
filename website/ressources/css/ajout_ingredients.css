@@ -1,0 +1,50 @@
+.classicButton {
+    color: #25b03a !important;
+    font-size: 1.2em !important;
+    background-color: white;
+    box-shadow: gray 10px 10px 30px -6px;
+    border-radius: 10px !important;
+    font-weight: 450 !important;
+    transition-duration: 350ms;
+}
+.classicButton:hover {
+    background-color: #25b03a;
+    box-shadow: gray 5px 5px 20px -6px;
+    color: white !important;
+}
+
+/* ------ Caractèristiques des boutons classiques ROUGE : boutons principaux ROUGE
+    Un bouton de ce type doit ausis être de type classicBouton pour hériter des autres caractéristiques -------- */
+.deleteButton {
+    background-color: white;
+    color: red !important;
+}
+.deleteButton:hover {
+    background-color: red;
+    color: white !important;
+}
+
+#nomIngredient{
+    border:1px solid black;
+}
+
+/*Centrer le placeholder Source : https://openclassrooms.com/forum/sujet/centrer-le-placeholder*/
+::-webkit-input-placeholder { text-align:center; }
+::-moz-placeholder { text-align:center; } 
+:-ms-input-placeholder { text-align:center; } 
+input:-moz-placeholder { text-align:center; }
+
+
+
+.icon:hover
+{
+    opacity: 0.7;
+}
+
+.icon
+{
+    border-left: 1px gray;
+    margin-left:10px;
+    padding: 2px;
+}
+
